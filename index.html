@@ -16,11 +16,12 @@
           extend: {
             colors: {
               clifford: '#da373d',
-              // .gradient-color: 'rgba(244, 244, 244, 0.00)',
+              'gradient-color': ' rgba(244, 244, 244, 0.00)',
+              } 
             }
           }
         }
-      }
+      
     </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,7 +41,7 @@
 <body class="font-manrope">
   <header class="max-w-[1540px] mx-auto space-x-[200px] ">
     <div class=" min-h-[500px] ">
-      <div class="hero-content flex-col lg:flex-row-reverse justify-between ">
+      <div class="flex flex-col lg:flex-row-reverse justify-between ">
         <div class="justify-between">
           <img src="./images/banner.png" class="w-[450px] mb-0 overflow-clip pt-[140px]" />
           <a class="btn bg-white shadow-lg h-[100px] w-[250px] relative bottom-[50px]"> <i
@@ -71,49 +72,49 @@
           randomised words which don't look even slightly believable. </p>
       </div>
       <!-- card section -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[20px] pt-[30px] px-15px md:px-20px lg:px-30px ">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  pt-[30px] px-15px md:px-20px lg:px-30px ">
         <!-- card-1 -->
 
-        <div class="card  bg-gradient-to-b from-[#FFFFFF] to-white shadow-xl">
+        <div class="card  bg-gradient-to-b from-slate-200 to-gradinet-color shadow-xl lg:w-[267px]">
           <figure class="px-10 pt-10">
             <img src="./images/tea-1.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title">Milk Tea</h2>
-            <p class="text-[16px] text-[#92af8a] font-[600]">Creamer could be replaced by fresh milk</p>
+            <h2 class="card-title text-[25px] font-[800]">Milk Tea</h2>
+            <p class="text-[16px] text-[#777] font-[600]">Creamer could be replaced by fresh milk</p>
           </div>
         </div>
         <!-- card-2 -->
         
-          <div class="card  bg-gradient-to-r bg-slate-500 shadow-xl">
+          <div class="card  bg-gradient-to-b from-slate-200 to-gradinet-color shadow-xl lg:w-[267px]">
             <figure class="px-10 pt-10">
               <img src="./images/tea-2.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
-              <h2 class="card-title">Milk Tea</h2>
-              <p class="text-[16px] text-[#92af8a] font-[600]">Creamer could be replaced by fresh milk</p>
+              <h2 class="card-title text-[25px] font-[800]">Black Tea</h2>
+              <p class="text-[16px] text-[#777] font-[600]">Creamer could be replaced by fresh milk</p>
             </div>
           </div>
           <!-- card-3 -->
           
-            <div class="card  bg-gradient-to-r bg-slate-500 shadow-xl">
+            <div class="card  bg-gradient-to-b from-slate-200 to-gradinet-color shadow-xl lg:w-[267px]">
               <figure class="px-10 pt-10">
                 <img src="./images/tea-3.png" alt="Shoes" class="rounded-xl" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="card-title">Milk Tea</h2>
-                <p class="text-[16px] text-[#92af8a] font-[600]">Creamer could be replaced by fresh milk</p>
+                <h2 class="card-title text-[25px] font-[800]">Lemon Tea</h2>
+                <p class="text-[16px] text-[#777] font-[600]">Creamer could be replaced by fresh milk</p>
               </div>
             </div>
             <!-- card-4 -->
             
-              <div class="card  bg-gradient-to-r bg-slate-500 shadow-xl">
+              <div class="card  bg-gradient-to-b from-slate-200 to-gradinet-color shadow-xl lg:w-[267px]">
                 <figure class="px-10 pt-10">
                   <img src="./images/tea-4.png" alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title">Milk Tea</h2>
-                  <p class="text-[16px] text-[#92af8a] font-[600]">Creamer could be replaced by fresh milk</p>
+                  <h2 class="card-title text-[25px] font-[800]">Green Tea</h2>
+                  <p class="text-[16px] text-[#777] font-[600]">Creamer could be replaced by fresh milk</p>
                 </div>
               </div>
             </div> 
@@ -145,7 +146,7 @@
     </section>
     <!-- clients section -->
     <section class="w-[100%]  bg-gradient-to-r from-[#FF8938] to-[#F00] mt-[100px] rounded-2xl px-[70px] py-[102px] flex justify-between items-center">
-      <div class="text-white space-y-[25px]" >
+      <div class="text-white space-y-[25px] bg-" >
         <h1 class="text-[45px] font-[800]">Meet Our Super<br> Clients</h1>
         <p class="text-[16px] font-[500] lg:w-[440px] ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
         <a class="btn bg-[white] text">Show All</a>
@@ -183,9 +184,60 @@
         </div>
       </div>
     </section>
+    
+    <!-- news and events -->
+    <section>
+      <div class="text-center mt-[130px] space-y-[20px]">
+        <h1 class="text-[45px] font-[800]">News & Events</h1>
+        <p class="text-[16px] font-[500] text-[#777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br>by injected humour, or randomised words which don't look even slightly believable. </p>
+      </div>
+
+      <div class="mt-[50px] grid lg:grid-cols-3">
+        <!-- events 1 -->
+        <div class="card lg:w-[364px] bg-base-100 shadow-xl border-[1px] ">
+          <figure class="px-[22px] pt-[22px]">
+            <img src="./images/news-1.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-start ">
+            <h6 class="text-[16px] font-[500] text-[#777]">Feb 05, 2027</h6>
+            <h2 class="card-title text-[20px] font-[800]">Collecting 8 points for discount</h2>
+            <p class="text-[16px] font-[500] text-[#777]">There are many variations of passages of Lorem Ipsum available.</p>
+            <h3 class="text-[16px] font-[700]">Learn More</h3>
+          </div>
+        </div>
+        <!-- event 2 -->
+        <div class="card lg:w-[364px] bg-base-100 shadow-xl border-[1px] ">
+          <figure class="px-[22px] pt-[22px]">
+            <img src="./images/news-2.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-start ">
+            <h6 class="text-[16px] font-[500] text-[#777]">Feb 05, 2027</h6>
+            <h2 class="card-title text-[20px] font-[800]">Collecting 8 points for discount</h2>
+            <p class="text-[16px] font-[500] text-[#777]">There are many variations of passages of Lorem Ipsum available.</p>
+            <h3 class="text-[16px] font-[700]">Learn More</h3>
+          </div>
+        </div>
+        <!-- event 3 -->
+        <div class="card lg:w-[364px] bg-base-100 shadow-xl border-[1px] ">
+          <figure class="px-[22px] pt-[22px]">
+            <img src="./images/news-3.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-start ">
+            <h6 class="text-[16px] font-[500] text-[#777]">Feb 05, 2027</h6>
+            <h2 class="card-title text-[20px] font-[800]">Collecting 8 points for discount</h2>
+            <p class="text-[16px] font-[500] text-[#777]">There are many variations of passages of Lorem Ipsum available.</p>
+            <h3 class="text-[16px] font-[700]">Learn More</h3>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
   </main>
   <footer>
-
+   
+      
+    </footer>
   </footer>
 </body>
 
